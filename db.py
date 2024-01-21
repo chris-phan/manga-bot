@@ -36,9 +36,3 @@ class Database:
 
     def get(self, key):
         return self.db.get(key, None)
-
-
-if __name__ == "__main__":
-    db = Database()
-    db.update("OPM", "3")
-    db.update("MHA", "aid")
